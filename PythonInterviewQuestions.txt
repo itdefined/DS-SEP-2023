@@ -1,0 +1,1173 @@
+===============================================================================================
+
+What is Python? What are the benefits of using Python?
+Python is a programming language with objects, modules, threads, exceptions and automatic
+memory management. The benefits of pythons are that it is simple and easy, portable,
+extensible, build-in data structure and it is an open source.
+
+
+===============================================================================================
+
+What is PEP 8?
+PEP 8 is a coding convention, a set of recommendation, about how to write your Python code
+more readable.
+
+
+===============================================================================================
+
+What is pickling and unpickling?
+Pickle module accepts any Python object and converts it into a string representation and dumps
+it into a file by using dump function, this process is called pickling. While the process of
+retrieving original Python objects from the stored string representation is called unpickling.
+
+
+===============================================================================================
+
+How Python is interpreted?
+Python language is an interpreted language. Python program runs directly from the source
+code. It converts the source code that is written by the programmer into an intermediate
+language, which is again translated into machine language that has to be executed.
+
+
+===============================================================================================
+
+How memory is managed in Python?
+Python memory is managed by Python private heap space. All Python objects and data
+structures are located in a private heap. The programmer does not have an access to
+this private heap and interpreter takes care of this Python private heap.
+The allocation of Python heap space for Python objects is done by Python memory
+manager. The core API gives access to some tools for the programmer to code.
+Python also have an inbuilt garbage collector, which recycle all the unused memory and
+frees the memory and makes it available to the heap space.
+
+
+
+===============================================================================================
+
+What are the tools that help to find bugs or perform static analysis?
+PyChecker is a static analysis tool that detects the bugs in Python source code and warns
+about the style and complexity of the bug. Pylint is another tool that verifies whether the module
+meets the coding standard.
+
+
+===============================================================================================
+
+What are Python decorators?
+A Python decorator is a specific change that we make in Python syntax to alter functions easily.
+
+
+===============================================================================================
+
+What is the difference between list and tuple?
+The difference between list and tuple is that list is mutable while tuple is not. Tuple can be
+hashed for e.g as a key for dictionaries.
+
+
+===============================================================================================
+
+How are arguments passed by value or by reference?
+Everything in Python is an object and all variables hold references to the objects. The
+references values are according to the functions; as a result you cannot change the value of the
+references. However, you can change the objects if it is mutable.
+
+
+===============================================================================================
+
+What is Dict and List comprehensions are?
+They are syntax constructions to ease the creation of a Dictionary or List based on existing
+iterable.
+
+
+===============================================================================================
+
+What are the built-in type does python provides?
+There are mutable and Immutable types of Pythons built in types Mutable built-in types
+	List
+	Sets
+	Dictionaries
+Immutable built-in types
+	Strings
+	Tuples
+	Numbers
+
+
+===============================================================================================
+
+What is namespace in Python?
+In Python, every name introduced has a place where it lives and can be hooked for. This is
+known as namespace. It is like a box where a variable name is mapped to the object placed.
+Whenever the variable is searched out, this box will be searched, to get corresponding object.
+
+
+===============================================================================================
+
+What is lambda in Python?
+It is a single expression anonymous function often used as inline function.
+
+
+===============================================================================================
+
+Why lambda forms in python does not have statements?
+A lambda form in python does not have statements as it is used to make new function object
+and then return them at runtime.
+
+
+===============================================================================================
+
+What is pass in Python?
+Pass means, no-operation Python statement, or in other words it is a place holder in compound
+statement, where there should be a blank left and nothing has to be written there.
+
+
+===============================================================================================
+
+In Python what are iterators?
+In Python, iterators are used to iterate a group of elements, containers like list.
+
+
+===============================================================================================
+
+What is unittest in Python?
+A unit testing framework in Python is known as unittest. It supports sharing of setups,
+automation testing, shutdown code for tests, aggregation of tests into collections etc.
+
+
+===============================================================================================
+
+In Python what is slicing?
+A mechanism to select a range of items from sequence types like list, tuple, strings etc. is
+known as slicing.
+
+
+===============================================================================================
+
+What are generators in Python?
+The way of implementing iterators are known as generators. It is a normal function except that
+it yields expression in the function.
+
+
+===============================================================================================
+
+What is docstring in Python?
+A Python documentation string is known as docstring, it is a way of documenting Python
+
+functions, modules and classes.
+
+
+===============================================================================================
+
+How can you copy an object in Python?
+To copy an object in Python, you can try copy.copy () or copy.deepcopy() for the general case.
+You cannot copy all objects but most of them.
+
+
+===============================================================================================
+
+What is negative index in Python?
+Python sequences can be index in positive and negative numbers. For positive index, 0 is the
+first index, 1 is the second index and so forth. For negative index, (-
+
+===============================================================================================
+
+is the last index and (-2)
+is the second last index and so forth.
+
+
+===============================================================================================
+
+How you can convert a number to a string?
+In order to convert a number into a string, use the inbuilt function str(). If you want a octal or
+hexadecimal representation, use the inbuilt function oct() or hex().
+
+
+===============================================================================================
+
+What is the difference between Xrange and range?
+Xrange returns the xrange object while range returns the list, and uses the same memory and
+no matter what the range size is.
+
+
+===============================================================================================
+
+What is module and package in Python?
+In Python, module is the way to structure program. Each Python program file is a module, which
+imports other modules like objects and attributes.
+The folder of Python program is a package of modules. A package can have modules or
+subfolders.
+
+
+===============================================================================================
+
+Mention what are the rules for local and global variables in Python?
+Local variables: If a variable is assigned a new value anywhere within the function's body, it's
+assumed to be local.
+Global variables: Those variables that are only referenced inside a function are implicitly
+global.
+
+
+===============================================================================================
+
+How can you share global variables across modules?
+To share global variables across modules within a single program, create a special module.
+Import the config module in all modules of your application. The module will be available as a
+global variable across modules.
+
+
+===============================================================================================
+
+Explain how can you make a Python Script executable on Unix?
+
+To make a Python Script executable on Unix, you need to do two things,
+Script file's mode must be executable and
+the first line must begin with # ( #!/usr/local/bin/python)
+
+
+===============================================================================================
+
+Explain how to delete a file in Python?
+By using a command os.remove (filename) or os.unlink(filename)
+
+
+===============================================================================================
+
+Explain how can you generate random numbers in Python?
+To generate random numbers in Python, you need to import command as
+import random
+random.random()
+This returns a random floating point number in the range [0,1)
+
+
+===============================================================================================
+
+Explain how can you access a module written in Python from C?
+You can access a module written in Python from C by following method,
+Module = =PyImport_ImportModule("");
+
+
+===============================================================================================
+
+Mention the use of // operator in Python?
+It is a Floor Divisionoperator , which is used for dividing two operands with the result as quotient
+showing only digits before the decimal point. For instance, 10//5 = 2 and 0//0 = 
+
+
+===============================================================================================
+
+Mention five benefits of using Python?
+Python comprises of a huge standard library for most Internet platforms like Email,
+HTML, etc.
+Python does not require explicit memory management as the interpreter itself allocates
+the memory to new variables and free them automatically
+Provide easy readability due to use of square brackets
+Easy-to-learn for beginners
+Having the built-in data types saves programming time and effort from declaring
+variables
+
+
+===============================================================================================
+
+Mention the use of the split function in Python?
+The use of the split function in Python is that it breaks a string into shorter strings using the
+defined separator. It gives a list of all words present in the string.
+
+
+
+===============================================================================================
+
+Explain what is Flask & its benefits?
+Flask is a web micro framework for Python based on “Werkzeug, Jinja 2 and good intentions”
+BSD licensed. Werkzeug and jingja are two of its dependencies.
+Flask is part of the micro-framework. Which means it will have little to no dependencies on
+external libraries. It makes the framework light while there is little dependency to update and
+less security bugs.
+
+
+===============================================================================================
+
+Mention what is the difference between Django, Pyramid, and Flask?
+Flask is a “microframework” primarily build for a small application with simpler requirements. In
+flask, you have to use external libraries. Flask is ready to use.
+Pyramid are build for larger applications. It provides flexibility and lets the developer use the
+right tools for their project. The developer can choose the database, URL structure, templating
+style and more. Pyramid is heavy configurable.
+Like Pyramid, Django can also used for larger applications. It includes an ORM.
+
+
+===============================================================================================
+
+Mention what is Flask-WTF and what are their features?
+Flask-WTF offers simple integration with WTForms. Features include for Flask WTF are
+Integration with wtforms
+Secure form with csrf token
+Global csrf protection
+Internationalization integration
+Recaptcha supporting
+File upload that works with Flask Uploads
+
+
+===============================================================================================
+
+Explain what is the common way for the Flask script to work?
+The common way for the flask script to work is
+Either it should be the import path for your application
+Or the path to a Python file
+
+
+===============================================================================================
+
+Explain how you can access sessions in Flask?
+A session basically allows you to remember information from one request to another. In a flask,
+it uses a signed cookie so the user can look at the session contents and modify. The user can
+
+modify the session if only it has the secret key Flask.secret_key.
+
+
+===============================================================================================
+
+Is Flask an MVC model and if yes give an example showing MVC pattern for your
+application?
+Basically, Flask is a minimalistic framework which behaves same as MVC framework. So MVC
+is a perfect fit for Flask, and the pattern for MVC we will consider for the following example
+
+===============================================================================================
+ How will you improve the performance of a program in Python?
+
+There are many ways to improve the performance of a Python program. Some of these are as follows:
+
+            i. Data Structure: We have to select the right data structure for our purpose in a Python program.
+            ii. Standard Library: Wherever possible, we should use methods from standard library. Methods implemented in standard library have much better performance than user implementation.
+            iii. Abstraction: At times, a lot of abstraction and indirection can cause slow performance of a program. We should remove the redundant abstraction in code.
+            iv. Algorithm: Use of right algorithm can make a big difference in a program. We have to find and select the suitable algorithm to solve our problem with high performance.
+
+
+===============================================================================================
+ What are the benefits of using Python?
+Python is strong that even Google uses it. Some of the benefits of using Python are as follows:
+            i. Efficient: Python is very efficient in memory management. For a large data set like Big Data, it is much easier to program in Python.
+            ii. Faster: Though Python code is interpreted, still Python has very fast performance.
+            iii. Wide usage: Python is widely used among different organizations for different projects. Due to this wide usage, there are thousands of add-ons available for use with Python.
+            iv. Easy to learn: Python is quite easy to learn. This is the biggest benefit of using Python. Complex tasks can be very easily implemented in Python.
+
+
+===============================================================================================
+ How will you specify source code encoding in a Python source file?
+
+By default, every source code file in Python is in UTF-8 encoding. But we can also specify our own encoding for source files. This can be done by adding following line after #! line in the source file.
+# -*- coding: encoding -*-
+
+
+In the above line we can replace encoding with the encoding that we want to use.
+
+
+===============================================================================================
+ What is the use of PEP 8 in Python?
+
+PEP 8 is a style guide for Python code. This document provides the coding conventions for writing code in Python. Coding conventions are about indentation, formatting, tabs, maximum line length, imports organization, line spacing etc. We use PEP 8 to bring consistency in our code. We consistency it is easier for other developers to read the code.
+
+
+===============================================================================================
+ What is Pickling in Python?
+
+Pickling is a process by which a Python object hierarchy can be converted into a byte stream. The reverse operation of Pickling is Unpickling.
+Python has a module named pickle. This module has the implementation of a powerful algorithm for serialization and de-serialization of Python object structure.
+Some people also call Pickling as Serialization or Marshalling.
+With Serialization we can transfer Python objects over the network. It is also used in persisting the state of a Python object. We can write it to a file or a database.
+
+
+===============================================================================================
+ How does memory management work in Python?
+
+There is a private heap space in Python that contains all the Python objects and data structures. In CPython there is a memory manager responsible for managing the heap space.
+There are different components in Python memory manager that handle segmentation, sharing, caching, memory pre-allocation etc.
+Python memory manager also takes care of garbage collection by using Reference counting algorithm.
+
+
+===============================================================================================
+ How will you perform Static Analysis on a Python Script?
+
+We can use Static Analysis tool called PyChecker for this purpose. PyChecker can detect errors in Python code.
+PyChecker also gives warnings for any style issues.
+
+
+Some other tools to find bugs in Python code are pylint and pyflakes.
+
+
+===============================================================================================
+ What is the difference between a Tuple and List in Python?
+
+In Python, Tuple and List are built-in data structures.
+Some of the differences between Tuple and List are as follows:
+    I. Syntax: A Tuple is enclosed in parentheses:
+E.g. myTuple = (10, 20, “apple”); A List is enclosed in brackets:
+E.g. myList = [10, 20, 30];
+
+    II. Mutable: Tuple is an immutable data structure. Whereas, a List is a mutable data structure.
+
+    III. Size: A Tuple takes much lesser space than a List in Python.
+
+
+    IV. Performance: Tuple is faster than a List in Python. So it gives us good performance.
+
+
+    V. Use case: Since Tuple is immutable, we can use it in cases like Dictionary creation. Whereas, a List is preferred in the use case where data can alter.
+
+
+===============================================================================================
+ What is a Python Decorator?
+
+A Python Decorator is a mechanism to wrap a Python function and modify its behavior by adding more functionality to it. We can use @ symbol to call a Python Decorator function.
+
+
+===============================================================================================
+ How are arguments passed in a Python method? By value or by reference?
+
+Every argument in a Python method is an Object. All the variables in Python have reference to an Object. Therefore arguments in Python method are passed by Reference.
+Since some of the objects passed as reference are mutable, we can change those objects in a method. But for an Immutable object like String, any change done within a method is not reflected outside.
+
+
+===============================================================================================
+ What is the difference between List and Dictionary data types in Python?
+
+Main differences between List and Dictionary data types in Python are as follows:
+
+
+    I. Syntax: In a List we store objects in a sequence. In a Dictionary we store objects in key-value pairs.
+
+    II. Reference: In List we access objects by index number. It starts from 0 index. In a Dictionary we access objects by key specified at the time of Dictionary creation.
+
+
+    III. Ordering: In a List objects are stored in an ordered sequence. In a Dictionary objects are not stored in an ordered sequence.
+
+
+    IV. Hashing: In a Dictionary, keys have to be hashable. In a List there is no need for hashing.
+
+
+===============================================================================================
+ What are the different built-in data types available in Python?
+
+Some of the built-in data types available in Python are as follows:
+Numeric types: These are the data types used to represent numbers in Python.
+int: It is used for Integers
+long: It is used for very large integers of non-limited length. float: It is used for decimal numbers.
+complex: This one is for representing complex numbers
+Sequence types: These data types are used to represent sequence of characters or objects.
+str: This is similar to String in Java. It can represent a sequence of characters.
+bytes: This is a sequence of integers in the range of 0-
+byte array: like bytes, but mutable (see below); only available in Python x list: This is a sequence of objects.
+tuple: This is a sequence of immutable objects.
+Sets: These are unordered collections. set: This is a collection of unique objects.
+
+frozen set: This is a collection of unique immutable objects.
+Mappings: This is similar to a Map in Java.
+dict: This is also called hashmap. It has key value pair to store information by using hashing.
+
+
+
+
+===============================================================================================
+ What is a Namespace in Python?
+
+A Namespace in Python is a mapping between a name and an object. It is currently implemented as Python dictionary.
+E.g. the set of built-in exception names, the set of built-in names, local names in a function
+At different moments in Python, different Namespaces are created. Each Namespace in Python can have a different lifetime.
+For the list of built-in names, Namespace is created when Python interpreter starts.
+When Python interpreter reads the definition of a module, it creates global namespace for that module.
+When Python interpreter calls a function, it creates local namespace for that function.
+
+
+
+===============================================================================================
+ How will you concatenate multiple strings together in Python?
+
+We can use following ways to concatenate multiple string together in Python:
+I.	use + operator:
+
+E.g.
+>>> fname="John"
+>>> lname="Ray"
+>>> print fname+lname JohnRay
+II.	use join function:
+E.g.
+>>> ''.join(['John','Ray']) 'JohnRay'
+
+
+===============================================================================================
+
+ What is the use of Pass statement in Python?
+
+The use of Pass statement is to do nothing. It is just a placeholder for a statement that is required for syntax purpose. It does not execute any code or command.
+Some of the use cases for pass statement are as follows:
+    I. Syntax purpose:
+>>> while True:
+... pass # Wait till user input is received
+    II. Minimal Class: It can be used for creating minimal classes:
+>>> class MyMinimalClass:
+... pass
+    III. Place-holder for TODO work:
+We can also use it as a placeholder for TODO work on a function or code that needs to be implemented at a later point of time.
+>>> def initialization():
+... pass # TODO
+
+
+===============================================================================================
+
+ What is the use of Slicing in Python?
+
+We can use Slicing in Python to get a substring from a String. The syntax of Slicing is very convenient to use.
+E.g. In following example we are getting a substring out of the name John.
+>>> name="John"
+>>> name[1:3] 'oh'
+In Slicing we can give two indices in the String to create a Substring. If we do not give first index, then it defaults to 
+E.g.
+>>> name="John"
+>>> name[:2] 'Jo'
+If we do not give second index, then it defaults to the size of the String.
+>>> name="John"
+>>> name[3:] 'n'
+
+
+===============================================================================================
+
+ What is the difference between Docstring in Python and Javadoc in Java?
+
+A Docstring in Python is a string used for adding comments or summarizing a piece of code in Python.
+The main difference between Javadoc and Docstring is that docstring is available during runtime as well. Whereas, Javadoc is removed from the Bytecode and it is not present in .class file.
+We can even use Docstring comments at run time as an interactive help manual.
+In Python, we have to specify docstring as the first statement of a code object, just after the def or class statement.
+The docstring for a code object can be accessed from the '	doc	' attribute of that object.
+
+
+===============================================================================================
+
+ How do you perform unit testing for Python code?
+
+We can use the unit testing modules unittest or unittest2 to create and run unit tests for Python code.
+We can even do automation of tests with these modules. Some of the main components of unittest are as follows:
+        I. Test fixture: We use test fixture to create preparation methods required to run a test. It can even perform post-test cleanup.
+
+        II. Test case: This is main unit test that we run on a piece of code. We can use Testcase base class to create new test cases.
+
+
+        III. Test suite: We can aggregate our unit test cases in a Test suite.
+
+
+        IV. Test runner: We use test runner to execute unit tests and produce reports of the test run.
+
+
+===============================================================================================
+
+ What is the difference between an Iterator and Iterable in Python?
+
+An Iterable is an object that can be iterated by an Iterator.
+In Python, Iterator object provides _iter_() and next() methods.
+In Python, an Iterable object has _iter_ function that returns an Iterator object.
+
+
+When we work on a map or a for loop in Python, we can use next() method to get an Iterable item from the Iterator.
+
+
+===============================================================================================
+
+ What is the use of Generator in Python?
+
+We can use Generator to create Iterators in Python. A Generator is written like a regular function. It can make use yield statement to return data during the function call. In this way we can write complex logic that works as an Iterator.
+A Generator is more compact than an Iterator due to the fact that _iter_() and next() functions are automatically created in a Generator.
+Also within a Generator code, local variables and execution state are saved between multiple calls. Therefore, there is no need to add extra variables like self.index etc to keep track of iteration.
+Generator also increases the readability of the code written in Python. It is a very simple implementation of an Iterator.
+
+
+===============================================================================================
+
+ What is the significance of functions that start and end with _ symbol in Python?
+
+Python provides many built-in functions that are surrounded by _ symbol at the start and end of the function name. As per Python documentation, double _ symbol is used for reserved names of functions.
+These are also known as System-defined names. Some of the important functions are: Object._new_
+Object._init_ Object._del_
+
+
+===============================================================================================
+
+ What is the difference between xrange and range in Python?
+
+In Python, we use range(0,10) to create a list in memory for 10 numbers.
+Python provides another function xrange() that is similar to range() but xrange() returns a sequence object instead of list object. In xrange() all the values are not stored simultaneously in memory. It is a lazy loading based function.
+But as per Python documentation, the benefit of xrange() over range() is very minimal in regular scenarios.
+As of version 1, xrange is deprecated.
+
+
+===============================================================================================
+
+ What is lambda expression in Python?
+
+A lambda expression in Python is used for creating an anonymous function. Wherever we need a function, we can also use a lambda expression.
+We have to use lambda keyword for creating a lambda expression. Syntax of lambda function is as follows:
+lambda argumentList: expression
+E.g. lambda a,b: a+b
+The above mentioned lambda expression takes two arguments and returns their sum.
+
+
+We can use lambda expression to return a function.
+A lambda expression can be used to pass a function as an argument in another function.
+
+
+===============================================================================================
+
+ How will you copy an object in Python?
+
+In Python we have two options to copy an object. It is similar to cloning an object in Java.
+        I. Shallow Copy: To create a shallow copy we call copy.copy(x). In a shallow copy, Python creates a new compound object based on the original object. And it tries to put references from the original object into copy object.
+
+        II. Deep Copy: To create a deep copy, we call copy.deepcopy(x). In a deep copy, Python creates a new object and recursively creates and inserts copies of the objects from original object into copy object. In a deep copy, we may face the issue of recursive loop due to infinite recursion.
+
+
+===============================================================================================
+
+ What are the main benefits of using Python?
+
+Some of the main benefits of using Python are as follows:
+    I. Easy to learn: Python is simple language. It is easy to learn for a new programmer.
+
+    II. Large library: There is a large library for utilities in Python that can be used for different kinds of applications.
+
+    III. Readability: Python has a variety of statements and expressions that are quite readable and very explicit in their use. It increases the readability of overall code.
+
+    IV. Memory management: In Python, memory management is built into the Interpreter. So a developer does not have to spend effort on managing memory among objects.
+
+    V. Complex built-in Data types: Python has built-in Complex data types like list, set, dict etc. These data types give very good performance as well as save time in coding new features.
+
+
+===============================================================================================
+
+ What is a metaclass in Python?
+
+A metaclass in Python is also known as class of a class. A class defines the behavior of an instance. A metaclass defines the behavior of a class.
+One of the most common metaclass in Python is type. We can subclass type to create our own metaclass.
+We can use metaclass as a class-factory to create different types of classes.
+
+
+===============================================================================================
+
+ What is the use of frozenset in Python?
+
+A frozenset is a collection of unique values in Python. In addition to all the properties of set, a frozenset is immutable and hashable.
+Once we have set the values in a frozenset, we cannot change. So we cannot use and update methods from set on frozenset.
+Being hashable, we can use the objects in frozenset as keys in a Dictionary.
+
+
+===============================================================================================
+
+ What is Python Flask?
+
+Python Flask is a micro-framework based on Python to develop a web application.
+It is a very simple application framework that has many extensions to build an enterprise level application.
+Flask does not provide a data abstraction layer or form validation by default. We can use external libraries on top of Flask to perform such tasks.
+
+
+===============================================================================================
+
+ What is None in Python?
+
+None is a reserved keyword used in Python for null objects. It is neither a null value nor a null pointer. It is an actual object in Python. But there is only one instance of None in a Python environment.
+We can use None as a default argument in a function.
+During comparison we have to use “is” operator instead of “==” for None.
+
+
+===============================================================================================
+
+ What is the use of zip() function in Python?
+
+In Python, we have a built-in function zip() that can be used to aggregate all the Iterable objects of an Iterator.
+We can use it to aggregate Iterable objects from two iterators as well. E.g.
+list_1 = ['a', 'b', 'c']
+list_2 = ['1', '2', '3']
+for a, b in zip(list_1, list_2): print a, b
+
+Output:
+a1 b2 c3
+
+By using zip() function we can divide our input data from different sources into fixed number of sets.
+
+
+===============================================================================================
+
+ What is the use of // operator in Python?
+
+Python provides // operator to perform floor division of a number by another. The result of // operator is a whole number (without decimal part) quotient that we get by dividing left number with right number.
+It can also be used floordiv(a,b). E.g.
+10// 4 = 2
+-10//4 = -3
+
+
+===============================================================================================
+
+ What is a Module in Python?
+
+A Module is a script written in Python with import statements, classes, functions etc. We can use a module in another Python script by importing it or by giving the complete namespace.
+With Modules, we can divide the functionality of our application in smaller chunks that can be easily managed.
+
+
+===============================================================================================
+
+ How can we create a dictionary with ordered set of keys in Python?
+
+In a normal dictionary in Python, there is no order maintained between keys. To solve this problem, we can use OrderDict class in Python. This class is available for use since version 
+It is similar to a dictionary in Python, but it maintains the insertion order of keys in the dictionary collection.
+
+
+===============================================================================================
+
+ Python is an Object Oriented programming language or a functional programming language?
+
+Python uses most of the Object Oriented programming concepts. But we can also do functional programming in Python. As per the opinion of experts, Python is a multi-paradigm programming language.
+We can do functional, procedural, object-oriented and imperative programming with the help of Python.
+
+
+===============================================================================================
+
+ How can we retrieve data from a MySQL database in a Python script?
+
+To retrieve data from a database we have to make use of the module available for that database. For MySQL database, we import MySQLdb module in our Python script.
+We have to first connect to a specific database by passing URL, username, password and the name of database.
+Once we establish the connection, we can open a cursor with cursor() function. On an open cursor, we can run fetch() function to execute queries and retrieve data from the database tables.
+
+
+===============================================================================================
+
+ What is the difference between append() and extend() functions of a list in Python?
+
+In Python, we get a built-in sequence called list. We can call standard functions like append() and extend() on a list.
+We call append() method to add an item to the end of a list. We call extend() method to add another list to the end of a list.
+In append() we have to add items one by one. But in extend() multiple items from another list can be added at the same time.
+
+
+===============================================================================================
+
+ How will you handle an error condition in Python code?
+
+We can implement exception handling to handle error conditions in Python code. If we are expecting an error condition that we cannot handle, we can raise an error with appropriate message.
+E.g.
+>>> if student_score < 0: raise ValueError(“Score can not be negative”)
+
+If we do not want to stop the program, we can just catch the error condition, print a message and continue with our program.
+
+E.g. In following code snippet we are catching the error and continuing with the default value of age.
+
+#!/usr/bin/python try:
+age=18+'duration' except:
+print("duration has to be a number") age=18
+print(age)
+
+
+===============================================================================================
+
+ What is the difference between split() and slicing in Python?
+
+Both split() function and slicing work on a String object. By using split() function, we can get the list of words from a String.
+E.g. 'a b c '.split() returns [‘a’, ‘b’, ‘c’]
+Slicing is a way of getting substring from a String. It returns another String.
+E.g. >>> 'a b c'[2:3] returns b
+
+
+===============================================================================================
+
+ How will you check in Python, if a class is subclass of another class?
+
+Python provides a useful method issubclass(a,b) to check whether class a is a subclass of b.
+E.g. int is not a subclass of long
+>>> issubclass(int,long)
+False
+bool is a subclass of int
+>>> issubclass(bool,int) True
+
+
+===============================================================================================
+
+ How will you debug a piece of code in Python?
+
+In Python, we can use the debugger pdb for debugging the code. To start debugging we have to enter following lines on the top of a Python script.
+import pdb pdb.set_trace()
+After adding these lines, our code runs in debug mode. Now we can use commands like breakpoint, step through, step into etc for debugging.
+
+
+===============================================================================================
+
+ How do you profile a Python script?
+
+Python provides a profiler called cProfile that can be used for profiling Python code.
+We can call it from our code as well as from the interpreter.
+It gives use the number of function calls as well as the total time taken to run the script.
+We can even write the profile results to a file instead of standard out.
+
+
+===============================================================================================
+
+ What is the difference between ‘is’ and ‘==’ in Python?
+
+We use ‘is’ to check an object against its identity. We use ‘==’ to check equality of two objects.
+
+E.g.
+>>> lst = [10,20, 20]
+>>> lst == lst[:] True
+>>> lst is lst[:] False
+
+
+===============================================================================================
+
+ How will you share variables across modules in Python?
+
+We can create a common module with variables that we want to share.
+This common module can be imported in all the modules in which we want to share the variables.
+In this way, all the shared variables will be in one module and available for sharing with any new module as well.
+
+
+===============================================================================================
+
+ How can we do Functional programming in Python?
+
+In Functional Programming, we decompose a program into functions. These functions take input and after processing give an output. The function does not maintain any state.
+Python provides built-in functions that can be used for Functional programming. Some of these functions are:
+        I. Map()
+        II. reduce()
+        III. filter()
+Event iterators and generators can be used for Functional programming in Python.
+
+
+===============================================================================================
+
+ What is the improvement in enumerate() function of Python?
+
+In Python, enumerate() function is an improvement over regular iteration. The enumerate() function returns an iterator that gives (0, item[0]).
+E.g.
+>>> thelist=['a','b']
+>>> for i,j in enumerate(thelist):
+... print i,j
+...
+    0 a
+    1 b
+
+===============================================================================================
+
+ How will you execute a Python script in Unix?
+
+To execute a Python script in Unix, we need to have Python executor in Unix environment.
+In addition to that we have to add following line as the first line in a Python script file.
+#!/usr/local/bin/python
+
+This will tell Unix to use Python interpreter to execute the script.
+
+
+===============================================================================================
+
+ What are the popular Python libraries used in Data analysis?
+
+Some of the popular libraries of Python used for Data analysis are:
+        I. Pandas: Powerful Python Data Analysis Toolkit
+        II. SciKit: This is a machine learning library in Python.
+        III. Seaborn: This is a statistical data visualization library in Python.
+        IV. SciPy: This is an open source system for science, mathematics and engineering implemented in Python.
+
+
+===============================================================================================
+
+ What is the output of following code in Python?
+
+>>> thelist=['a','b']
+>>> print thelist[3:]
+	Ans: The output of this code is following:
+	[]
+	Even though the list has only 2 elements, the call to thelist with index 3 does not give any index error.
+
+
+===============================================================================================
+
+ If you have data with name of customers and their location, which data type will you use to store it in Python?
+	In Python, we can use dict data type to store key value pairs. In this example, customer name can be the key and their location can be the value in a dict data type.
+	Dictionary is an efficient way to store data that can be looked up based on a key.
+
+
+===============================================================================================
+Define Series in Pandas?
+	It is a one-dimensional array-like structure with homogeneous data which means data of different data types cannot be a part of the same series. It can hold any data type such as integers, floats, and strings and its values are mutable i.e. it can be changed but the size of the series is immutable i.e. it cannot be changed. By using a ‘series’ method, we can easily convert the list, tuple, and dictionary into a series. A Series cannot contain multiple columns.
+
+
+===============================================================================================
+Define DataFrame in Pandas?
+	It is a two-dimensional array-like structure with heterogeneous data. It can contain data of different data types and the data is aligned in a tabular manner i.e. in rows and columns and the indexes with respect to these are called row index and column index respectively. Both size and values of DataFrame are mutable. The columns can be heterogeneous types like int and bool. It can also be defined as a dictionary of Series.
+
+
+===============================================================================================
+How can we create a copy of the series in Pandas?
+	We can create a copy of the series by using the following syntax: Series.copy(deep=True)
+
+	The default value for the deep parameter is set to True.
+
+	When the value ofdeep=True, the creation of a new object with a copy of the calling object’s data and indices takes place. Modifications to the data or indices of the copy will not be reflected in the original object whereas when the value of deep=False, the creation of a new object will take place without copying the calling object’s data or index i.e. only the references to the data and index will be copied. Any changes made to the data of the original object will be reflected in the shallow copy and vice versa.
+
+
+
+===============================================================================================
+Explain Categorical data in Pandas?
+	Categorical data is a discrete set of values for a particular outcome and has a fixed range. Also, the data in the category need not be numerical, it can be textual in nature. Examples are gender, social class, blood type, country affiliation, observation time, etc. There is no hard and fast rule for how many values a categorical value should have. One should apply one’s domain knowledge to make that determination on the data sets.
+
+
+
+===============================================================================================
+Explain Reindexing in pandas along with its parameters?
+	Reindexing as the name suggests is used to alter the rows and columns in a DataFrame. It is also defined as the process of conforming a dataframe to a new index with optional filling logic. For missing values in a dataframe, the reindex() method assigns NA/NaN as the value. A new object is returned unless a new index is produced that is equivalent to the current one. The copy value is set to False. This is also used for changing the index of rows and columns in the dataframe.
+
+
+===============================================================================================
+How can we convert Series to DataFrame?
+	The conversion of Series to DataFrame is quite a simple process. All we need to do is to use the to_frame() function.
+
+
+===============================================================================================
+What are some of the essential features provided by Python Pandas?
+	For harnessing the true power of the Pandas library in Python, you should explore some of the essential features being offered to the users. When it comes to data analysis, Pandas is considered to be the most powerful tool with plenty of features to make things easier for users.
+
+	Some of the essential features that you should know about before starting your usage with Pandas library are:
+
+	1. Data handling
+	2. Data alignment and indexing
+	3. Data cleaning
+	4. Handling missing data
+	5. Various input and output tools for reading and writing data
+	6. Supports multiple file formats
+	7. Merge and join different datasets
+	8. Performance optimization
+	9. Data visualization
+	10. Grouping the data as per requirement
+	11. Performing different mathematical operations on the available data
+	12. Masking out irrelevant data to only use the required data
+	13. Taking out unique data from various repetitions in the dataset
+
+
+
+===============================================================================================
+What Is Groupby Function In Pandas?
+	In Pandas, groupby () function allows the programmers to rearrange data by using them on real-world sets. The primary task of the function is to split the data into various groups.
+
+
+
+===============================================================================================
+What do we mean by data aggregation?
+	One of the most popular pandas questions that are frequently asked in interviews is this one. The main goal of data aggregation is to add some aggregation in one or more columns. It does so by using the following
+
+	Sum- It is specifically used when you want to return the sum of values for the requested axis.
+
+	Min-This is used to return the minimum values for the requested axis.
+
+	Max- Contrary to min, Max is used to return a maximum value for the requested axis. 
+
+
+
+===============================================================================================
+What do we mean by Pandas index? 
+	Yet another frequently asked pandas interview question is what do we mean by pandas index. Well, you can answer the same in the following manner. 
+
+	Pandas index basically refers to the technique of selecting particular rows and columns of data from a data frame. Also known as subset selection, you can either select all the rows and some of the columns, or some rows and all of the columns. It also allows you to select only some of the rows and columns. There are mainly four types of multi-axes indexing, supported by Pandas. They are 
+
+	Dataframe.[ ]
+	Dataframe.loc[ ]
+	Dataframe.iloc[ ]
+	Dataframe.ix[ ]
+
+
+===============================================================================================
+What do we mean by Multiple Indexing?
+	Multiple indexing is often referred to as essential indexing since it allows you to deal with data analysis and analysis, especially when you are working with high-dimensional data. Furthermore, with the help of this, you can also store and manipulate data with an arbitrary number of dimensions. 
+
+
+
+
+===============================================================================================
+How to create new columns derived from existing columns in Pandas?
+	We create a new column by assigning the output to the DataFrame with a new column name in between the [].
+	Let’s say we want to create a new column 'C' whose values are the multiplication of column 'B' with column 'A'. The operation will be easy to implement and will be element-wise, so there's no need to loop over rows.
+
+	Also, other mathematical operators (+, -, \*, /) or logical operators (<, >, =,…) work element-wise. But if we need more advanced logic, we can use arbitrary Python code via apply().
+	Depending on the case, we can use rename with a dictionary or function to rename row labels or column names according to the problem.
+
+
+===============================================================================================
+How are iloc() and loc() different?
+	DataFrame.iloc is a method used to retrieve data from a Data frame, and it is an integer position-based locator (from 0 to length-1 of the axis), but may also be used with a boolean array. It takes input as an integer, arrays of integers, a slice object, a boolean array, and functions.
+
+	DataFrame.loc gets rows (and/or columns) with particular labels. It takes input as a single label, list of arrays, and slice objects with labels.
+
+
+===============================================================================================
+What are the operations that the Pandas Groupby method is based on?
+
+	Splitting the data into groups based on some criteria.
+	Applying a function to each group independently.
+	Combining the results into a data structure.
+	Q4: How to check whether a Pandas DataFrame is empty?
+
+	You can use the attribute df.empty to check whether it's empty or not:
+
+
+
+===============================================================================================
+How does the groupby() method works in Pandas?
+
+	In the first stage of the process, data contained in a pandas object, whether a Series, DataFrame, or otherwise, is split into groups based on one or more keys that we provide.
+	The splitting is performed on a particular axis of an object. For example, a DataFrame can be grouped in its rows (axis=0) or its columns (axis=1).
+	Once this is done, a function is applied to each group, producing a new value. Finally, the results of all those function applications are combined into a result object. The form of the resulting object will usually depend on what’s being done to the data.
+	In the figure below, this process is illustrated for a simple group aggregation.
+
+
+===============================================================================================
+What Is Time Series In pandas?
+	A time series is an ordered sequence of data which basically represents how some quantity changes over time. pandas contains extensive capabilities and features for working with time series data for all domains.
+
+	pandas supports:
+
+	Parsing time series information from various sources and formats
+	Generate sequences of fixed-frequency dates and time spans
+	Manipulating and converting date time with timezone information
+	Resampling or converting a time series to a particular frequency
+	Performing date and time arithmetic with absolute or relative time increments
+
+
+===============================================================================================
+
+Explain the difference between interpolate() and fillna() in Pandas?
+Ans: The major difference between interpolate() and fillna() in Pandas is below.
+
+interpolate(): It is the method that is used to fill missing values in DataFrame by estimating values based on existing data.
+
+fillna(): Maily fillna() is used to replace missing data or values with the appropriate values.
+
+
+===============================================================================================
+
+Explain the difference(s) between merge() and concat() in Pandas?
+Ans: The major difference between merge() and concat() in Pandas is below.
+
+merge(): It combines DataFrames based on common columns and performs various joins such as inner, outer, right, and left.
+
+concat(): This function concatenates DataFrames along with a particular axis. It provide no relationship between the data in the DataFrames.
+
+===============================================================================================
+
+Explain the difference between join() and merge() in Pandas?
+Ans: The major difference between join() and merge() in Pandas is below.
+
+join(): It is a method for combining DataFrames based on their indexes. Left join is the default join and it is a convenient way to merge DataFrames.
+
+merge(): This allows merging DataFrames based on specified column values. It supports inner, outer left, and right joins. It can merge DataFrames on one or more columns based on common values to combine the data.
+
+
+===============================================================================================
+
+How to convert continuous values to discrete values in Pandas?
+Ans: You will have to use either cut() or qcut() functions:
+
+cut() bins the data on values. We use it when we need evenly spaced values in bins. This function will use values rather than frequencies to sort the data.
+qcut() bins the data based on sample quantities. We use it to study data by quantities. It will divide an equal number of data in each bin.
+
+
+===============================================================================================
+
+What is data aggregation?
+Ans: The main work of data aggregation is to apply some assembly to one or more columns. It uses sum to return the sum of the values, min to return the minimum, and max to return the maximum value for the requested axis.
+
+
+===============================================================================================
+
+What is Multiple Indexing?
+Ans: A method for indexing a Pandas DataFrame with numerous layers is multiple indexing, commonly referred to as hierarchical indexing. As a result, you can design indexes with numerous dimensions, including those for data with time series, locations, or categories.
+
+
+===============================================================================================
+
+What is concat() in Pandas?
+Ans: The .concat() method stacks multiple DataFrames vertically or connects them horizontally after aligning them on an index.
+
+
+===============================================================================================
+
+What is GroupBy() in Pandas?
+Ans: The GroupBy() functions’ main task is to split the data into various groups. It allows rearranging the data by utilising them in real-world data sets.
+
+
+===============================================================================================
+
+How to sort the DataFrame?
+Ans: To sort the DataFrame use the DataFrame.sort_values() function. It sorts the DataFrame row or column-wise. The important parameters of the sort function are:
+
+axis: specifies whether to sort for rows (0) or columns (1)
+by: specifies which column or rows determine sorting
+ascending: specifies whether to sort the DataFrame in ascending or descending order
+
+
+
+===============================================================================================
+
+How can one create an empty DataFrame in Pandas?
+Ans: You can use the pd.DataFrame() function in Pandas without giving any arguments to build a blank DataFrame. A DataFrame without any rows or columns will result from this.
+
+Here is an example of how to make a blank Python DataFrame:
+
+import pandas as pd
+# Create an empty DataFrame
+df = pd.DataFrame()
+# Print the DataFrame
+print(df)
+
+
+===============================================================================================
+
+How to split a DataFrame based on boolean criteria?
+Ans: To split the DataFrame, first create a mask to separate the data frame and then use the (~) inverse operator to take the complement of the mask.
+
+
+===============================================================================================
+
+What do describe() percentiles values represent?
+Ans: The percentiles describe the data distribution we are working on. The median is represented by 50, whereas the lower and upper borders are at 25 and 75, respectively. Using this, we can get a clearer idea of how skewed is our data.
+
+
+===============================================================================================
+
+How can you merge data on common columns or indices?
+Ans: To merge, use the .merge() method which is similar to database-style joins. We have the inner, outer, left and right merge operations. An inner merge merges left and right data frames keeping only the common values. Left and right merge operations keep all the rows from their side and add empty / Nan values on the missing opposite side. An outer merge returns all the rows from the left and right sides.
+
+
+===============================================================================================
+===============================================================================================
+Others
+===============================================================================================
+	Python Data type
+	SQL Joins
+	Difference between for and while loop
+	List comprehension and lambda function.
+	Difference between clear, pop and delete
+	Does it consumes memory after we exit from python editor
+	Difference between vlookup and xlookup
+	Built in function in python and Excel
+	Difference between tuple and dictionary
+	difference between tuple and dictionary in python
+	difference between // and / operator in python
+	Built-in funtions in python
+	How many types of data type
+	Name mutable and non mutable data type 
+	How do you define dictionary
+	Limitation of data type in dictionary
+	What is set.hash/ tag
+	If we have duplicate key values in Dictionary , what will be printed 
+	Can we assign list to key in dictionary
+	Create a dictionary with out data frame
+	Create dataframe from dictionary
+	Filter only one cell
+	Create a third column based on the condition of the values their in second column 
+	How to concate a list in dictionary using list comprehension
+	Write any lambda or list comprehension
+	What is decorator and what is inside it
+	Merge 2 data frames
+	Difference between merge and concate
+
+
+
+https://www.mlstack.cafe/blog/pandas-python-interview-questions
