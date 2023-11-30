@@ -1,0 +1,30 @@
+01. Tell me about yourself, Skills
+02. Workflow of current company
+03. Roles and responsibilities in current company
+04. What white space opportunities analysis. 
+05. Do you have knowledge on SQL or not? 
+06. Are you people using any schedule tools to collect the data.
+07. Create a model by giving a Library as a example. 
+    The daily activities which library is following
+    Barrow date
+    Return date
+    Due date
+    Member id
+    Member name
+    Book type- fiction, Non fiction
+    Reference books, non reference books
+    Asked me write a sql query to identify details of customer who's has over due of returning a book
+08. Data structures/Types in python
+09. SQL joins
+10. pyspark
+11. About Excel formulas
+12. How would you rate yourself in python out of 5
+13. What is the difference between range and table data in excel
+14.  About Data modelling tools
+15. ETL tools
+16. What is the difference between transaction sql and Data warehouse. Why we use transaction SQL
+17. Cloud technologies ==> AWS, Azure, Dockers, DB, EC2, LAMBDA
+18. Did you ever created a dashboards. If so which tool you used
+19. What is the diff b/w Datawarehouse & database?
+20. what are the datawarehouse tools?
+21. Given an Employee table and asked me to write to find a 3rd highest salary?
