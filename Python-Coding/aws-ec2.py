@@ -1,7 +1,7 @@
 import boto3, json
 
-aws_access_key_id = 'AKIAQLURJO6B4JPOT7UC'
-aws_secret_access_key = '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'
+aws_access_key_id = ''
+aws_secret_access_key = ''
 
 aws_session = boto3.Session(region_name="ap-south-1",
                             aws_access_key_id=aws_access_key_id,
