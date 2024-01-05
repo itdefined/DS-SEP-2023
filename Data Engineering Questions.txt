@@ -1,30 +1,254 @@
-01. Tell me about yourself, Skills
-02. Workflow of current company
-03. Roles and responsibilities in current company
-04. What white space opportunities analysis. 
-05. Do you have knowledge on SQL or not? 
-06. Are you people using any schedule tools to collect the data.
-07. Create a model by giving a Library as a example. 
-    The daily activities which library is following
-    Barrow date
-    Return date
-    Due date
-    Member id
-    Member name
-    Book type- fiction, Non fiction
-    Reference books, non reference books
-    Asked me write a sql query to identify details of customer who's has over due of returning a book
-08. Data structures/Types in python
-09. SQL joins
-10. pyspark
-11. About Excel formulas
-12. How would you rate yourself in python out of 5
-13. What is the difference between range and table data in excel
-14.  About Data modelling tools
-15. ETL tools
-16. What is the difference between transaction sql and Data warehouse. Why we use transaction SQL
-17. Cloud technologies ==> AWS, Azure, Dockers, DB, EC2, LAMBDA
-18. Did you ever created a dashboards. If so which tool you used
-19. What is the diff b/w Datawarehouse & database?
-20. what are the datawarehouse tools?
-21. Given an Employee table and asked me to write to find a 3rd highest salary?
+Tell me about yourself
+
+Tell me about Skills
+
+Workflow of current company
+
+
+Roles and responsibilities in current company
+    Understand the business problem and define clear objectives for data analysis and modeling.
+    Gather and collect relevant data from various sources, both internal and external to the organization.
+    Clean and preprocess raw data to ensure its quality, remove missing values, handle outliers, and format data for analysis.
+    Explore and analyze the data to identify patterns, trends, and insights that can inform decision-making.
+    Create new features or transform existing ones to enhance the performance of machine learning models.
+    Build, train, and evaluate predictive models using machine learning algorithms.
+    Deploy models into production environments and integrate them with existing systems for real-world applications.
+    Monitor the performance of deployed models, retrain models as necessary, 
+    Present findings and insights to both technical and non-technical audiences using clear visualizations and reports.
+    Collaborate with other teams, such as IT, business intelligence, and data engineering, to ensure a seamless data science workflow.
+
+
+
+Data structures/Types in python
+        Lists:
+            Mutable, ordered collection defined with [].
+        
+        Tuples:
+            Immutable, ordered collection defined with ().
+        
+        Sets:
+            Unordered, unique elements defined with {}.
+        
+        Dictionaries:
+            Key-value pairs defined with {}.
+        
+        Strings:
+            Sequence of characters defined with quotes.
+
+        Arrays (numpy):
+            Library for multi-dimensional arrays.
+        
+        Queues (queue module):
+            FIFO queues with the Queue class.
+        
+        Stacks:
+            LIFO behavior using lists.
+
+Are you people using any schedule tools to collect the data.
+
+Explain about Data modelling tools
+    Data modeling tools assist in designing and managing database structures. Key features include a diagramming interface for entities and relationships, forward and reverse engineering, collaboration support, data type definition, documentation generation, validation checks, DBMS integration, a repository for model storage, and code generation. Popular tools include ERWin, IBM InfoSphere Data Architect, Oracle SQL Developer Data Modeler, Microsoft Visio, and Lucidchart. They play a crucial role in ensuring data accuracy, consistency, and efficient access.
+
+
+What is the diff b/w Datawarehouse & database?
+What is the difference between transaction sql and Data warehouse. Why we use transaction SQL
+what are the datawarehouse tools?
+Did you ever created a dashboards. If so which tool you used
+What do you know about pyspark
+
+
+
+Explain ETL tools
+        ETL stands for Extract, Transform, Load, and ETL tools are software applications that facilitate the process of moving data from various sources to a destination database or data warehouse.
+
+        ETL tools play a crucial role in the data integration process by extracting, transforming, and loading data from diverse sources into a consolidated destination for analysis and reporting. They streamline and automate the movement of data, ensuring data consistency, accuracy, and accessibility for business intelligence and analytics purposes.
+
+        ETL tools provide a graphical interface for mapping source data to target data and defining transformation rules.
+
+        ETL tools allow users to create and manage complex workflows that specify the order and dependencies of the ETL processes.
+
+        Support for various data sources and destinations, including databases, cloud storage, flat files, and APIs.
+
+        ETL tools often include scheduling capabilities to automate the execution of ETL processes at specified intervals or in response to events.
+
+        Robust error handling mechanisms to identify and manage issues that may arise during the ETL process, such as data quality problems or connectivity issues.
+
+
+        ETL tools are scalable to handle large volumes of data efficiently.
+
+        Popular ETL tools include:
+        AWS Glue
+        AWS Athena
+        AWS RedShift
+        Apache Spark
+
+
+
+
+
+
+What white space opportunities analysis.
+
+    In summary, white space analysis in data analytics is about systematically exploring and analyzing parts of a dataset that have been overlooked or not thoroughly investigated. It aims to reveal hidden insights, improve predictive models, and contribute to a more comprehensive understanding of the data, ultimately driving informed decision-making
+
+    Similar to EDA
+
+
+
+
+
+
+Explain SQL joins with examples
+
+Given an Employee table and asked me to write to find a 3rd highest salary?
+
+Create a model by giving a Library as a example. 
+    With the following details
+        Barrow date
+        Return date
+        Due date
+        Member id
+        Member name
+        Book type- fiction, Non fiction
+        Reference books, non reference books
+        Asked me write a sql query to identify details of customer who's has over due of returning a book
+
+
+About Excel formulas
+What is the difference between range and table data in excel
+
+Cloud technologies ==> AWS, Azure, Dockers, DB, ECLAMBDA
+
+
+Data Analysis Tools: Questions like "Describe your experience with Tableau or Power BI" or "How do you clean and prepare data for analysis?" These test their proficiency with common data analysis tools and methodologies.
+
+
+Problem-Solving: Asking hypothetical scenarios like "How would you approach a data quality issue?" or "How would you handle incomplete data?" This evaluates their problem-solving skills and their ability to think logically and strategically.
+
+
+What is DML vs DDL?
+    DML (Data Manipulation Language) and DDL (Data Definition Language) are two types of SQL (Structured Query Language) statements used to interact with a relational database. They serve different purposes in managing and manipulating the structure and content of a database.
+
+        DDL (Data Definition Language):
+        Manages the structure of the database.
+        Includes commands like CREATE, ALTER, and DROP.
+        Involves creating, modifying, or deleting database objects.
+
+        DML (Data Manipulation Language):
+        Manipulates the data stored in the database.
+        Includes commands like SELECT, INSERT, UPDATE, and DELETE.
+        Involves operations on the records within database table
+
+
+What’s a primary key?
+
+What’s a clustered index?
+
+How many clustered indexes can I have? Why?
+
+What’s a transaction?
+
+What’s a view?
+
+How do you create a view?
+
+What are the ACID properties?
+
+Why will most data analyst only use DML?
+
+What’s the WHERE clause do?
+
+What’s a surrogate key?
+
+What’s an identity seed?
+
+What’s an inner join?
+
+How do you export data to a CSV file?
+
+What’s a KPI?
+
+What’s the difference between a KPI and a dashboard?
+
+What’s a data type?
+
+What data type would I use for numbers?
+
+How do I delete data from a table?
+
+What are the two core files in any relational database?
+
+What’s the difference between a data warehouse and relational database?
+
+What does the TOP keyword do?
+
+What is the difference between Data Mining and Data Analysis?
+Explain the typical data analysis process.
+What is the difference between Data Mining and Data Profiling?
+How often should you retrain a data model?
+
+
+What is data cleansing? Mention a few best practices that you have followed while data cleansing.
+How will you handle the QA process when developing a predictive model to forecast customer churn?
+Mention some common problems that data analysts encounter during analysis.
+What are the important steps in data validation process?
+How will you create a classification to identify key customer trends in unstructured data?
+What is the criteria to say whether a developed data model is good or not?
+Describe the steps you follow when designing a data-driven model to tackle a business problem. An example might be to automatically classify customer support emails by topic or sentiment. Another might be to predict a company’s employee churn.
+Describe different pre-processing steps that you might carry out on data before using them to train a model and state under what conditions they might be applied.
+What models would you characterize as simple models and which ones as complex? What are the relative strengths and weaknesses of choosing a more complex model over a simpler one?
+In what ways can models be combined to form model ensembles and what are some advantages of doing this?
+What is dimensionality reduction? What are some ways to perform this? When and why might we want to do this?
+What is a confidence interval and why is it useful?
+What is the difference between statistical independence and correlation?
+What is conditional probability? What is Bayes’ Theorem? Why is it useful in practice?
+Suppose we are training a model using a particular optimization procedure such as stochastic gradient descent. How do we know if we are converging to a solution? If a training procedure converges will it always result in the best possible solution?
+How do we know if we have collected enough data to train a model?
+Explain why we have training, test and validation data sets and how they are used effectively?
+What is clustering? Give an example algorithm that performs clustering. How can we know whether we obtained decent clusters? How might we estimate a good number of clusters to use with our data?
+We often say that correlation does not imply causation. What does this mean?
+What is the difference between unsupervised and supervised learning?
+What is the difference between regression and classification?
+What do we mean when we talk about the bias-variance tradeoff in statistical models?
+What is over-fitting? How is this related to the bias-variance trade-off? What is regularization? Give some examples of regularization in models.
+Suppose we want to train a binary classifier and one class is very rare. Give an example of such a problem. How should we train this model? What metrics should we use to measure performance?
+How many unique subsets of n different objects can we make?
+How would you build a data-driven recommender system? What are the limitations of this approach?
+
+In which environment(s) do you usually run your analyses?
+Describe your experience in working with data from databases. Are you familiar with SQL?
+What visualization tools (Tableau, D3.js, R and so on) have you used?
+Do you have a presentation you can show us, such as on SlideShare?
+Do you have experience presenting reports and findings directly to senior management in your previous roles?
+Are you comfortable speaking in public? Have you ever presented a technical topic to a large audience?
+
+
+Explain the difference between supervised and unsupervised learning.
+
+What is cross validation, and why is it important in machine learning?
+
+Describe the bias-variance tradeoff and its relevance in machine learning models.
+
+How would you handle missing data in a dataset before applying machine learning algorithms?
+
+What are some common feature selection techniques in machine learning?
+
+Can you explain the concept of overfitting? How can it be avoided?
+
+What evaluation metrics would you use to assess the performance of a classification model?
+
+What is regularisation, and why is it useful in machine learning?
+
+Describe the working principle of decision trees. How does the algorithm make decisions?
+
+How does gradient descent work in the context of training a machine learning model?
+
+What are some common types of ensemble methods in machine learning?
+
+Explain the difference between bagging and boosting techniques.
+
+Have you used any dimensionality reduction techniques? If so, which ones and why?
+
+How would you handle class imbalance in a binary classification problem?
+
+Can you give an example of a real-world application of machine learning that you have worked on?
